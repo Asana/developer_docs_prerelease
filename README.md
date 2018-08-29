@@ -15,8 +15,8 @@ Contributing
 As with many other Github Pages sites, our page is run on [Jekyll](https://jekyllrb.com/). The getting started pages there are a great resource, but here is a turbo-start to develop these pages the way we do at Asana.
 
 Here are the prerequisite things you'll need:
-Ruby (we use Ruby with [Jekyll](https://jekyllrb.com/) and [Slate](https://github.com/lord/slate))
-- Bundler to manage the dependencies
+- Ruby (we use Ruby with [Jekyll](https://jekyllrb.com/) and [Slate](https://github.com/lord/slate))
+  - Bundler to manage the dependencies
 Node.js for (widdershins)
 
 
@@ -28,4 +28,12 @@ We use Ruby version 2.5.0 for this repository; although it may be possible to us
 
 There is a .ruby-version file in this directory that should set you on this version of Ruby whenever you're here or in as subdirectory.
 
+You then need to have Bundler installed
 
+`gem install bundler`
+
+And all of our ruby gems
+
+`bundle install`
+
+**TODO: There is a message about sass being deprecated. Investigate alternatives.**
