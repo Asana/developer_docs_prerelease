@@ -39,20 +39,7 @@ And all of our ruby gems. The root of our site (including the bundler Gemfile) i
 
 **TODO: There is a message about sass being deprecated. Investigate alternatives.**
 
-# Building
+API reference
+======
 
-We use Jekyll to do all the open-form blog-y stuff, and Slate to do our API reference page. Slate uses middleman, which is, just like Jekyll, a static site generator. :/
-
-Thankfully, since these are just generating static sites, we can generate the api reference into a package, copy it for Slate, then publish it to Github pre-rendered. This means we generate an inner static site, and then upload it to Github, which generates an outer static site.
-
-(Note: it might be possible to port Slate to Jekyll by migrating its erb template to a Fluid template, but I'm not sure if that's possible and how much scope that would take).
-
-The next challenge is that we have our OpenAPI docs, but Slate takes Markdown. There's an open source project called [Widdershins](https://github.com/Mermade/widdershins) that will take care of that for us.
-
-So our build process goes:
-
-OpenAPI => Widdershins => markdown => Slate on middleman => html => Jekyll => Github Pages => html
-
-This is pretty gnarly and lends us to some pretty out-there dependencies, but this is an area of improvement in the future. One saving grace for us is that there are a couple of industry-standard "checkpoints" in there (OpenAPI, markdown, html) that are targets that can be reverse-engineered to if we need to.
-
-Advantages are that Widdershins and Slate are actively maintained and seem pretty fully-featured, and Jekyll is used by hundreds if not thousands of Github Pages users.
+The technical reference for our API is at [https://asana.github.io/developer_docs_prerelease/api_reference/](https://asana.github.io/developer_docs_prerelease/api_reference/). It is a simple themed [ReDoc](https://github.com/Rebilly/ReDoc) React app that loads the OpenAPI spec from the same directory and presents it in a pretty view.
