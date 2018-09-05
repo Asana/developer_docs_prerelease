@@ -1,14 +1,21 @@
+// Asana colors
+$core-gold: #FFB900;
+$core-coral: #FC636B;
+$bright-coral: #FF6D92;
+$navy: #273347;
+
 // Breakpoints
 $large-breakpoint: 64em !default;
 $medium-breakpoint: 42em !default;
 
 // Headers
 $header-heading-color: #fff !default;
-$header-bg-color: #159957 !default;
-$header-bg-color-secondary: #155799 !default;
+$header-bg-color: $core-gold !default;
+$header-bg-color-secondary: $bright-coral !default;
+$header-bg-color-tertiary: $core-coral !default;
 
 // Text
-$section-headings-color: #159957 !default;
+$section-headings-color: $navy !default;
 $body-text-color: #606c71 !default;
 $body-link-color: #1e6bb8 !default;
 $blockquote-text-color: #819198 !default;
@@ -21,3 +28,4 @@ $code-text-color: #567482 !default;
 $border-color: #dce6f0 !default;
 $table-border-color: #e9ebec !default;
 $hr-border-color: #eff0f1 !default;
+

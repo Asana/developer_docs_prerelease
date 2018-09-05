@@ -1,0 +1,40 @@
+/*
+ * Straight out of our static site: https://github.com/Asana/asanastatic/blob/e69a59f1766bff75a2b281a3778077b5263fd29f/_themes/asana/css/fonts-blocking.css
+ *
+ */
+
+@font-face {
+  font-family: 'gordita';
+  src: url('https://fonts.luna1.co/gordita/hinted/hinted-Gordita-Regular.eot');
+  src: url('https://fonts.luna1.co/gordita/hinted/hinted-Gordita-Regular.eot?#iefix') format('embedded-opentype'),
+      url('https://fonts.luna1.co/gordita/hinted/hinted-Gordita-Regular.woff2') format('woff2'),
+      url('https://fonts.luna1.co/gordita/hinted/hinted-Gordita-Regular.woff') format('woff'),
+      url('https://fonts.luna1.co/gordita/hinted/hinted-Gordita-Regular.ttf') format('truetype'),
+      url('https://fonts.luna1.co/gordita/hinted/hinted-Gordita-Regular.svg#Gordita-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'gordita';
+  src: url('https://fonts.luna1.co/gordita/hinted/hinted-Gordita-Light.eot');
+  src: url('https://fonts.luna1.co/gordita/hinted/hinted-Gordita-Light.eot?#iefix') format('embedded-opentype'),
+      url('https://fonts.luna1.co/gordita/hinted/hinted-Gordita-Light.woff2') format('woff2'),
+      url('https://fonts.luna1.co/gordita/hinted/hinted-Gordita-Light.woff') format('woff'),
+      url('https://fonts.luna1.co/gordita/hinted/hinted-Gordita-Light.ttf') format('truetype'),
+      url('https://fonts.luna1.co/gordita/hinted/hinted-Gordita-Light.svg#Gordita-Light') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'gordita';
+  src: url('https://fonts.luna1.co/gordita/hinted/hinted-Gordita-Medium.eot');
+  src: url('https://fonts.luna1.co/gordita/hinted/hinted-Gordita-Medium.eot?#iefix') format('embedded-opentype'),
+      url('https://fonts.luna1.co/gordita/hinted/hinted-Gordita-Medium.woff2') format('woff2'),
+      url('https://fonts.luna1.co/gordita/hinted/hinted-Gordita-Medium.woff') format('woff'),
+      url('https://fonts.luna1.co/gordita/hinted/hinted-Gordita-Medium.ttf') format('truetype'),
+      url('https://fonts.luna1.co/gordita/hinted/hinted-Gordita-Medium.svg#Gordita-Medium') format('svg');
+  font-weight: 500;
+  font-style: normal;
+}
