@@ -1,3 +1,5 @@
 _site
 .sass-cache
 .jekyll-metadata
+api_reference/node_modules
+*.swp
