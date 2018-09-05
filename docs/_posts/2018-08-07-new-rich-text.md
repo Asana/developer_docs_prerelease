@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "New rich text"
-date:   2018-08-07 14:30:30 -0700
-categories: jekyll update
+title:  "New Rich Text"
+date:   2018-08-07 12:00:00 -0700
+categories: update
 ---
 
 As the Asana web product has developed over the years and acquired new formatting, the API hasn't kept up with all of the new additions owing to the fact that we needed to maintain backwards compatibility. Over time, lack of access to these additions have started to hinder app functionality. In one example, our format for representing links to other Asana objects (such as when you @-mention another user or task) didn't communicate enough of the useful information about these links. The Asana API is now happy to announce that we're addressing these issues in our "new rich text" update.
 
-The full documentation for this new feature [has been published](/developers/documentation/getting-started/rich-text), but to summarize, there are two major changes to be aware of when using this new format:
+The full documentation for this new feature [has been published]({{ "/documentation/getting-started/rich-text" | relative_url }}), but to summarize, there are two major changes to be aware of when using this new format:
 
 - All text must be valid, supported XML.
   - This means that all rich text going in and out of the API will be wrapped in a root `<body>` tag.

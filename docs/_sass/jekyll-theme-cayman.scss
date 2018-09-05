@@ -150,9 +150,6 @@ a {
   }
 
   @include large {
-    max-width: 64rem;
-    padding: 2rem 6rem;
-    margin: 0 auto;
     font-size: 1.1rem;
   }
 
@@ -168,6 +165,13 @@ a {
 
   img {
     max-width: 100%;
+  }
+
+  .post,
+  .home {
+    max-width: 64rem;
+    padding: 2rem 6rem;
+    margin: 0 auto;
   }
 
   h1,
