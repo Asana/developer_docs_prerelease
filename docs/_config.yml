@@ -35,6 +35,8 @@ exclude:
   - Gemfile
   - Gemfile.lock
 
+baseurl: /developer_docs_prerelease
+
 #   - vendor/bundle/
 #   - vendor/cache/
 #   - vendor/gems/
