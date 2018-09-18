@@ -31,7 +31,7 @@
   ],
   "security": [
     {
-      "personalAccessToken": []
+      "PersonalAccessToken": []
     },
     {
       "oauth2": []
@@ -2065,7 +2065,7 @@
       }
     },
     "securitySchemes": {
-      "personalAccessToken": {
+      "PersonalAccessToken": {
         "type": "http",
         "scheme": "bearer"
       },

@@ -1,7 +1,7 @@
 Hello, and welcome to Asana's Developer Documentation page!
 ======
 
-If you would like to contribute, we'd love to receive a PR from you! First, here's a few things to know:
+If you would like to contribute, we'd love to receive a PR from you! First, here are a few things to know:
 
 Asana's docs are published on Github Pages. You can go directly to the documents by going to https://asana.github.io/<reponame>.
 
