@@ -16,7 +16,7 @@
 title: Asana Developer Documentation
 email: devrel@asana.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Concepts, best practice, and reference for Asana's API
+  Concepts, best practices, and reference for Asana's API
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: AsanaEng

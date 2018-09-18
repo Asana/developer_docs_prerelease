@@ -167,7 +167,7 @@ a {
     max-width: 100%;
   }
 
-  .post,
+  article.post, // LOL this was interfering with the POST http verb in our API docs, so only style this way if under the article tag
   .home {
     max-width: 64rem;
     padding: 2rem 6rem;
