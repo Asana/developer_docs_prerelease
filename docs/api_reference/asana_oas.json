@@ -2065,7 +2065,7 @@
       }
     },
     "securitySchemes": {
-      "personalAccessToken": {
+      "PersonalAccessToken": {
         "type": "http",
         "scheme": "bearer"
       },
